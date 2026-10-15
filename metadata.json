@@ -1,0 +1,6 @@
+{
+  "name": "MinSu Korean Restaurant",
+  "description": "Sahiwal's first Korean restaurant located in Farid Town, serving Korean fried chicken, comforting ramen, handmade dumplings, and specialty boba drinks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

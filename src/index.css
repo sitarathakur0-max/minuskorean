@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-burgundy: #681F32;
+    --color-burgundy-hover: #521625;
+    --color-ink: #171717;
+    --color-rice: #F7F1E8;
+    --color-rice-card: #FFFFFF;
+    --color-rice-subtle: #EFE8DD;
+    --color-jade: #78947A;
+    --color-jade-dark: #5A755C;
+    --color-gold: #C7A56A;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: var(--color-rice);
+    color: var(--color-ink);
+  }
+
+  h1, h2, h3, .font-serif-brand {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom scrollbar and smooth transitions */
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #681F32;
+  color: #F7F1E8;
+}
